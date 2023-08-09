@@ -1,0 +1,74 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    background-color: #e2d5cd;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.logo{
+    background: url(../assets/logo2.png) no-repeat;
+    background-size: contain;
+    height: 20vh;
+    aspect-ratio : 1 / 1;
+    margin-top: 2vh;
+}
+.name{
+    margin-top: 5vh;
+    font-size: 2rem;
+    margin-bottom: 5vh;
+}
+a{
+    text-decoration: none;
+}
+h3{
+    margin: 0;
+}
+p{
+    margin: 0;
+}
+.links{
+    width: 60vw;
+    height: 10vh;
+    background-color: #253c3d;
+    border-radius: 5vw;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    margin: 2vh;
+}
+.messenger_logo{
+    position: absolute;
+    left: 2vw;
+    top: 2vh;
+    height: 6vh;
+    aspect-ratio : 1 / 1;
+}
+.messenger_logo.whatsapp{
+    background: url(../assets/whatsapp.png) no-repeat;
+    background-size: contain;
+}
+
+.messenger_logo.telegram{
+    background: url(../assets/telegram.png) no-repeat;
+    background-size: contain;
+}
+.messenger_logo.instagram{
+    background: url(../assets/instagrampng.png) no-repeat;
+    background-size: contain;
+}
+h3{
+    padding-top: 1vh;
+}
+p{
+    color: gray;
+    margin-top: 2vh;
+}
+@media only screen and (max-width: 700px){
+    .links{
+        width: 95vw;
+    }
+}
