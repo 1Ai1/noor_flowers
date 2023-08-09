@@ -60,6 +60,10 @@ p{
     background: url(../assets/instagrampng.png) no-repeat;
     background-size: contain;
 }
+.messenger_logo.phone{
+    background: url(../assets/phonepng.png) no-repeat;
+    background-size: contain;
+}
 h3{
     padding-top: 1vh;
 }
